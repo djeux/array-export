@@ -1,0 +1,29 @@
+{
+  "name": "djeux/array-export",
+  "description": "Export array as a formatted string, safe to save as a file",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "djeux",
+      "email": "athrin.freedom@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "symplify/easy-coding-standard": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Djeux\\ArrayExport\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Djeux\\ArrayExport\\Tests\\": "tests/"
+    }
+  }
+}
